@@ -80,7 +80,7 @@ extension PageboyViewController: UIPageViewControllerDelegate {
 
 extension PageboyViewController: UIScrollViewDelegate {
     
-    public func scrollViewDidScroll(_ scrollView: UIScrollView) {
+    open func scrollViewDidScroll(_ scrollView: UIScrollView) {
         guard scrollViewIsActual(scrollView) else {
             return
         }
